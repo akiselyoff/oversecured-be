@@ -1,0 +1,31 @@
+{
+  "name": "oversecured-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiselyoff/oversecured-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akiselyoff/oversecured-be/issues"
+  },
+  "homepage": "https://github.com/akiselyoff/oversecured-be#readme"
+}
